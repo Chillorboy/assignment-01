@@ -49,3 +49,50 @@ body {
   line-height: 1.4;
   margin-bottom: 20px;
 }
+
+/* See It in Action Section */
+.see-action {
+  background-color: #f7f9fc;
+  padding: 100px 60px;
+}
+
+.action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.action-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.action-text h2 {
+  font-size: 28px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 16px;
+}
+
+.action-text p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 24px;
+  max-width: 400px;
+}
+
+.action-image {
+  flex: 1;
+  text-align: right;
+  min-width: 300px;
+}
+
+.action-image img {
+  max-width: 100%;
+  border-radius: 20px;
+}
